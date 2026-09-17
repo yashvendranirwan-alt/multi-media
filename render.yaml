@@ -1,0 +1,20 @@
+# Render blueprint: one Docker service serving the API and the React app.
+# A persistent disk is attached so playlist edits survive a redeploy.
+services:
+  - type: web
+    name: media-sequencer
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: CYCLE_DURATION
+        value: 5h
+      - key: SYNC_DURATION
+        value: 15s
+      - key: DATA_FILE
+        value: /data/state.json
+    disk:
+      name: sequencer-data
+      mountPath: /data
+      sizeGB: 1

@@ -1,0 +1,16 @@
+# Runs the whole system as one service on http://localhost:8080
+services:
+  sequencer:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      # Shorten CYCLE_DURATION here to demonstrate the cycle restart quickly.
+      CYCLE_DURATION: 5h
+      SYNC_DURATION: 15s
+    volumes:
+      # Named volume keeps playlists across `docker compose down`.
+      - sequencer-data:/data
+
+volumes:
+  sequencer-data:
