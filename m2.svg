@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Media slide M2">
+  <defs>
+    <linearGradient id="bg-m2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6E1B38"/>
+      <stop offset="1" stop-color="#441022"/>
+    </linearGradient>
+    <pattern id="grid-m2" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#FF9EBD" stroke-opacity="0.10" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg-m2)"/>
+  <rect width="1280" height="720" fill="url(#grid-m2)"/>
+  <circle cx="1075" cy="205" r="150" fill="#FF9EBD" fill-opacity="0.13"/>
+  <circle cx="1075" cy="205" r="96" fill="#FF9EBD" fill-opacity="0.13"/>
+  <rect x="96" y="176" width="10" height="368" fill="#FF9EBD"/>
+  <text x="150" y="330" fill="#FFFFFF" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="232" font-weight="650" letter-spacing="-8">M2</text>
+  <text x="156" y="410" fill="#FF9EBD" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="500">Announcement</text>
+  <text x="156" y="484" fill="#FFFFFF" fill-opacity="0.62" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="400">Seeded playlist media</text>
+</svg>

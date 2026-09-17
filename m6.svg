@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Media slide M6">
+  <defs>
+    <linearGradient id="bg-m6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5E2716"/>
+      <stop offset="1" stop-color="#3A180D"/>
+    </linearGradient>
+    <pattern id="grid-m6" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0v80" fill="none" stroke="#F79570" stroke-opacity="0.10" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg-m6)"/>
+  <rect width="1280" height="720" fill="url(#grid-m6)"/>
+  <circle cx="1075" cy="205" r="150" fill="#F79570" fill-opacity="0.13"/>
+  <circle cx="1075" cy="205" r="96" fill="#F79570" fill-opacity="0.13"/>
+  <rect x="96" y="176" width="10" height="368" fill="#F79570"/>
+  <text x="150" y="330" fill="#FFFFFF" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="232" font-weight="650" letter-spacing="-8">M6</text>
+  <text x="156" y="410" fill="#F79570" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="54" font-weight="500">Notice</text>
+  <text x="156" y="484" fill="#FFFFFF" fill-opacity="0.62" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="30" font-weight="400">Seeded playlist media</text>
+</svg>
